@@ -3,7 +3,7 @@ addEventListener('DOMContentLoaded', (event) => {
     const form = document.getElementById('registration-form');
     const feedbackDiv = document.getElementById('form-feedback');
 
-    DOMRect.addEventListener('submit',(event) =>{
+    form.addEventListener('submit',(event) =>{
 
         event.preventDefault();
 
@@ -41,4 +41,4 @@ addEventListener('DOMContentLoaded', (event) => {
 
 
     })
-);  
+}); 
